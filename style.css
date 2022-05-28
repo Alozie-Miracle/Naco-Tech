@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+nav{
+    background-color: #626995;
+}
+.nav-img{
+    display: inline-block;
+    margin:12px 0 0;
+}
+.nav-link{
+    display: inline-block;
+    /* margin: 10px 0 3px 65%; */
+    margin: 3% 0 0 0;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 15px;
+    margin-left: 7px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+div .s{
+    background-color: blueviolet;
+}
+div .f{
+    background-color: crimson;
+}
+.container{
+    background-color: #626995;
+}
+.title-img{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.title{
+    display: inline-block;
+    margin: 2% 4% 0 4%;
+}
+.container .title .main{
+    color: rgb(247, 247, 247);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 200px;
+}
+.container .title .sec {
+    color: rgb(15, 17, 18);
+    font-size: 16px;
+    font-family: Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+}
+.container .title .p{
+    color: rgb(21, 24, 25);
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.About{
+    margin: 0 30% 0 30%;
+    border-radius: 10px;
+    text-align: center;
+    border: outset;
+    box-shadow: #626995;
+    color: rgb(36, 32, 25);
+    padding: 1.5rem;
+    background-color: white;
+}
+.About h3{
+    font-style: inherit;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.About h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.About p{
+    text-align:start;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: lighter;
+    margin-top: 0;
+}
+.service {
+    margin: 3% 25%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.caption{
+    margin: 2%;
+}
+.caption .cap1{
+    border: 3px solid purple;
+    width: 200px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:center;
+    position: relative;
+    right: 7%;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.caption .cap2{
+    border: 3px solid purple;
+    width: 200px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+     text-align: center;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.caption .cap3{
+    border: 3px solid purple;
+    width: 200px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 7%;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.caption .cap4 {
+    border: 3px solid purple;
+    width: 200px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    position: relative;
+    right: -12%;
+}
+@media (max-width: 1300px) {
+    .caption .cap4 {
+        right: -4%;
+    }
+.caption .cap3 {
+    left: 2%;
+}
+
+.caption .cap1 {
+    right: 3%;
+    margin-top:120px ;
+}
+
+
+
+
+}
+
+
+@media (max-width: 900px){
+    .caption .cap4 {
+        right: -4%;
+            margin: 1.5px;
+        }
+
+.caption .cap3 {
+    left: 2%;
+}
+.caption .cap1 {
+    right: 2%;
+}
+
+}
+
+
+
+@media (max-width: 420px) {
+    .About {
+        margin: 0 10% 0 10%;
+    }
+    .caption .cap1 {
+        right: 0;
+    }
+.caption .cap3 {
+    left: 0;
+}
+.service {
+    text-align: center;
+    width: 250px;
+    right: 40px;
+    position: relative;
+}
+footer .nav-link .p{
+    display: inline-block;
+}
+.caption .cap4 {
+    right: 0.4%;
+}
+
+}
