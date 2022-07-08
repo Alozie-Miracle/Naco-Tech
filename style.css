@@ -14,8 +14,10 @@ nav{
 }
 .nav-link{
     display: inline-block;
-    /* margin: 10px 0 3px 65%; */
     margin: 3% 0 0 0;
+}
+.nav-link p{
+    color: white;
 }
 button{
     border: none;
